@@ -1,0 +1,187 @@
+														/* body */
+body { 
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 14px;
+	line-height: 1.88889;
+	color: #0e0e0e; 
+	background-color: #2f2929;
+	margin: 10px auto; 
+	padding: 5px;
+	}
+	
+												/* Main heading styling */	
+
+h1 {
+	background-color: #dad4d0;
+	font-family: Cedarville Cursive, cursive;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	color: #2f2c29;
+	margin: 0 auto;			
+}
+												/* end heading styling */
+
+										/* This is "by: Mysel Pichardo" */
+small {
+	font-family: Book Antiqua, Arial, Serif;
+	font-size: 12px;
+	font-style: italic;
+}
+
+														/* Quote */
+	
+blockquote {
+	font-family: Cedarville Cursive, cursive;
+	font-size: 24px;
+	color: #ab6161;
+	text-align: center;
+	font-style: light;	
+}
+														/* End Quote */
+														
+/* Links styling including navigation */
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	
+}
+
+
+a:link {
+	color: #dad4d0;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ab6161;
+	text-decoration: none;
+}
+a:hover {
+	color: #2b5a5a;
+	text-decoration: underline;
+
+}
+a:active {
+	color: #dad4d0;
+	text-decoration: none;
+}
+
+
+#navigation li {
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	margin-right: 45px;
+	
+}
+/* End link styling */
+
+
+/* Subheader styling */
+h2 {
+	
+	font-family: Times, Arial, sans-serif;
+	font-size: 36px;
+	color: #d5b6b6;
+	text-align: center;
+	height: 30px;
+}
+/* subheader styling ends */
+
+
+p {
+	background-color: #dad4d0;
+	font-family: Calibri, Arial, Serif;
+	padding: 3px;
+	margin: auto;
+}
+
+/* ID sections including header 3 element */
+#Facts {
+	color: #d5b6b6;
+	font-size: 36px;
+	font-family: Times, Arial, sans-serif;
+	text-align: center;
+	height: 70px;
+
+}
+
+#funfact {
+	background-color: #dad4d0;
+}
+
+
+h3 {
+	font-family: Times, Arial, sans-serif;
+	Font-Size: 30px;
+	color: #d5b6b6;
+	text-align: center;
+	background-color: rgba(38,86,86,0.5);
+}
+
+
+#piano li {
+	font-family: Calibri, Times, serif;
+	font-size: 18px;
+	color: #dad4d0;
+}
+
+strong {
+	color: #265656;
+}
+
+#note {
+	background-color: #dad4d0;
+	padding: 3px;
+	font-family: Cedarville Cursive, cursive;
+	font-size: 18px;
+	color: #ab6161;
+	text-align: center;
+	text-shadow: 1px 1px #2f2929;
+}
+
+#imag_gallery li {
+	font-family: Times, Arial, sans-serif;
+	font-Size: 30px;
+	text-align: center;
+	color: #265656;	
+}
+
+/* ID sections including header 3 element */
+
+/* Gallery styling */
+figure {
+	border: 6px solid #dad4d0;	
+	border-radius: 15px;
+	box-shadow: -2px 2px 20px 2px #2b5a5a;
+	width: 304px; 
+	height: 228px;	
+}
+
+figcaption {
+	font-family: Montserrat, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: #dad4d0;
+	
+}
+
+/* End Gallery styling */
+
+
+/* Web based fonts */
+
+
+@font-face {
+		font-family: 'Cedarville Cursive', cursive;
+		src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
+	}
+
+@font-face {
+		font-family: 'Montserrat', sans-serif;
+		src: url('http://fonts.googleapis.com/css?family=Montserrat');
+	}
