@@ -7,18 +7,23 @@ body {
 	background-color: #2f2929;
 	margin: 10px auto; 
 	padding: 5px;
+	
 	}
 	
 												/* Main heading styling */	
 
 h1 {
-	background-color: #dad4d0;
+	background-image: url("../images/piano1.png"); 
+	background-repeat: no-repeat;
+	background-position: top 50%;
+	height: 256px;
+	line-height: 245px;
 	font-family: Cedarville Cursive, cursive;
-	font-size: 48px;
+	font-size: 45px;
 	font-weight: bold;
 	text-align: center;
 	color: #2f2c29;
-	margin: 0 auto;			
+	margin: 0 auto;				
 }
 												/* end heading styling */
 
@@ -31,11 +36,12 @@ small {
 
 														/* Quote */
 	
-blockquote {
+aside {
 	font-family: Cedarville Cursive, cursive;
-	font-size: 16px;
+	font-size: 22px;
 	color: #ffffff;
 	text-align: center;
+	
 		
 }
 														/* End Quote */
@@ -71,9 +77,9 @@ a:active {
 }
 
 
-#navigation li {
+nav li {
 	font-family: Montserrat, sans-serif;
-	font-size: 18px;
+	font-size: 17px;
 	text-align: center;
 	margin-right: 45px;
 }
@@ -85,7 +91,7 @@ a:active {
 h2 {
 	
 	font-family: Times, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 26px;
 	color: #d5b6b6;
 	text-align: center;
 	height: 30px;
@@ -145,12 +151,12 @@ strong {
 	background-color: #dad4d0;
 	padding: 3px;
 	font-family: Cedarville Cursive, cursive;
-	font-size: 18px;
+	font-size: 23px;
 	color: #ab6161;
 	text-align: center;
 	text-shadow: 1px 1px #2f2929;
 }
-
+	
 #imag_gallery li {
 	font-family: Times, Arial, sans-serif;
 	font-Size: 30px;
@@ -170,7 +176,14 @@ figure img {
     margin-left: auto;
     margin-right: auto; 
     padding: 2px;
-}
+  }
+  
+    
+img:hover { 
+  border: 3px solid black; 
+} 
+
+
 
 figcaption {
 	font-family: Montserrat, sans-serif;
@@ -187,16 +200,6 @@ figcaption {
 /* Web based fonts */
 
 
-@font-face {
-		font-family: 'Cedarville Cursive', cursive;
-		src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
-	}
-
-@font-face {
-		font-family: 'Montserrat', sans-serif;
-		src: url('http://fonts.googleapis.com/css?family=Montserrat');
-	}
-	
 	
 /* Layout Styling */
 
@@ -209,12 +212,12 @@ figcaption {
 	
 }
 
-#blockquote {
+blockquote {
 	float: right;
 	width: 450px;
 	margin: 25px;
-	border-top: 1px solid;
-	border-bottom: 1px solid;
+	border-top: 3px solid #0e0e0e;
+	border-bottom: 3px solid #0e0e0e;
 	padding: 5px;
 	background-color: rgba(38,86,86,0.5);
 	
@@ -252,7 +255,7 @@ figcaption {
 	
 }
 
-#sidenote {
+article {
 	float: left;
 	width: 500px;
 	margin-top: 55px;
@@ -271,4 +274,65 @@ figcaption {
 	clear: both;
 	margin: 90px;
 	
+}
+
+
+
+Footer {
+	font-size: 12px;
+	text-align: center;
+}
+
+
+
+table {
+	width: 900px;
+	margin: 0 auto;
+	background-color: rgba(38,86,86,0.5);
+	border: 3px solid #0e0e0e;
+	padding: 10px;
+	border-spacing: 5px 15px;
+}
+
+.titles {
+	font-size: 24px;
+	color: #2f2929;
+	text-align: center;
+	width: 500px;
+	border: 2px solid #222222;
+}
+
+th, td {
+	padding: 10px;
+	color: #d5b6b6;
+	font-size: 16px;
+	font-family: Times, Arial, sans-serif;
+}	
+
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 80%;
+	text-align: left;	
+}
+
+tr.even {
+	background-color: #888888;
+}
+
+tr:hover {
+	background-color:#dad4d0;
+}
+
+form {
+	width: 750px;
+	
+	padding: 10px;
+	margin: 20px auto;
+	font-size: 16px;
+	color: #222222;
+	border: 2px dotted #888888;
+	text-align: left;
+	background-color: #dad4d0;
+	clear: both;
 }
